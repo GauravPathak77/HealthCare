@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form action="/register" method="post">
+        <input type="text" name="username" placeholder="Enter username" required/>
+        <input type="email" name="email" placeholder="Enter email">
+        <input type="password" name="password" placeholder="Enter Password" required/>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+
+    <h1>Login</h1>
+    <form action="/login" method="post">
+        <input type="text" name="username" placeholder="Enter username" required/>
+        <input type="password" name="password" placeholder="Enter Password" required/>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+
+    <h1>LogOut</h1>
+    <form action="/logout" method="post">
+        <button type="Submit">Log Out</button>
+    </form>
+</body>
+</html>
